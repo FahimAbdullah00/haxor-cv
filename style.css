@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(182, 0, 0);
+    font-family: 'PT Serif', serif;
+    
+}
+
+.container{
+    width: 1000px;
+    background-color: #000000;
+    margin: 0px auto;
+    padding: 20px;
+    background-image: url(images/content.jpg);
+}
+header{
+
+}
+.profile-image{
+width: 100px;
+height: 120px;
+border: 2px solid white;
+border-radius: 60px;
+float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(0, 0, 0);
+}
+.header-contact{
+float: right;
+padding-top: 26px;
+}
+.header-contact a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.header-contact a:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: 3px solid black ;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* Personal Information */
+#personal-info{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+    color: rgb(10 8 163);
+    font-weight: bold;
+}
+.common-hr{
+  border: solid black 1px ;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+.right-div a{
+    text-decoration: none;
+    color: rgb(10 8 163);
+}
+.right-div a:hover{
+    text-decoration: underline;
+    
+}
+
+/* footer style */
+
+footer{
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(10 8 163);
+    margin: 10px;
+    font-weight: bold;
+}
+footer p{
+    font-weight: bold;
+}
+
